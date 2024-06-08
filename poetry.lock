@@ -217,11 +217,11 @@ python-versions = "*"
 
 [[package]]
 name = "xcsv"
-version = "0.4.0"
+version = "0.5.0"
 description = "Package for working with extended CSV (XCSV) files"
 category = "main"
 optional = false
-python-versions = ">=3.8,<4.0"
+python-versions = "<4.0,>=3.8"
 
 [package.dependencies]
 pandas = ">=1.4.2,<2.0.0"
@@ -229,7 +229,7 @@ pandas = ">=1.4.2,<2.0.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "3f8e6d3eb637d0ffdd08e7991d878e9df1c479bd6e57c466b0b91ed8ec32fe4a"
+content-hash = "93c2fd002774c920f088f4910bc363eb77b8f975ce6acb48ea26769554bced11"
 
 [metadata.files]
 ansicon = [
@@ -395,6 +395,6 @@ wcwidth = [
     {file = "wcwidth-0.2.13.tar.gz", hash = "sha256:72ea0c06399eb286d978fdedb6923a9eb47e1c486ce63e9b4e64fc18303972b5"},
 ]
 xcsv = [
-    {file = "xcsv-0.4.0-py3-none-any.whl", hash = "sha256:53f09730720673e604f3b2376a5de2543be4af8a13dc833defceac6ffa8a5b32"},
-    {file = "xcsv-0.4.0.tar.gz", hash = "sha256:e4b4612eba06df2ba29343b6919096594355d7301ca0e2551b2c34c660ca20a3"},
+    {file = "xcsv-0.5.0-py3-none-any.whl", hash = "sha256:9c5afbb1f12f9e006aba9c310b8dac2fbf3712f0eba333b04745976462410b6d"},
+    {file = "xcsv-0.5.0.tar.gz", hash = "sha256:9ee06c6fafda1dcd97bc0a2e7e011bf56abcd5b7dcba6e202d8e0ac9e6f6e32d"},
 ]
