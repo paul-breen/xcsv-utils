@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "xcsv-utils"
-version = "0.1.0"
+version = "0.1.1"
 description = "Subpackage of utilities for extended CSV (XCSV) files"
 authors = ["Paul Breen <pbree@bas.ac.uk>"]
 readme = "README.md"

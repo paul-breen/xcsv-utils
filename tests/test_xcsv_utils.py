@@ -8,7 +8,7 @@ import xcsv.utils as xu
 base = os.path.dirname(__file__)
 
 def test_version():
-    assert xu.__version__ == '0.1.0'
+    assert xu.__version__ == '0.1.1'
 
 @pytest.fixture
 def short_test_datasets():
